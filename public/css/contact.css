@@ -1,0 +1,154 @@
+body{
+    background: #f0f0f0;
+}
+
+.main-content{
+    margin-top: -5px;
+    padding-left:0;
+    padding-right:0;
+}
+
+.container{
+    margin-top:-15px;
+}
+
+.navbar-brand{
+    font-family:purista-web;
+     font-weight: 400;
+     font-style: normal;
+    font-size: 22px;
+}
+
+h1{
+    color: black;
+    opacity: .8;
+    letter-spacing: 0.181818em;
+    line-height: 2.0;
+    margin-bottom:-15px;
+}
+
+.logo-subtitle{
+    font-family: purista-web;
+    line-height: 2em;
+    text-transform: none;
+    letter-spacing: .04em;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #aaa;
+    margin-top: -22px;
+ 
+}
+
+.my-navbar{
+    background:#f0f0f0;
+    border: 0px;
+    border-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.dropdown-menu{
+    background-color: #f0f0f0;
+}
+
+.dropdown-submenu {
+    position:relative;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color:black;
+    background-color: #f0f0f0;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:transparent;
+    margin-top:5px;
+    margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:transparent;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color:black;
+    background-color: transparent;
+}
+
+.img-responsive:hover{
+    opacity: 0.8;
+}
+
+.col-lg-12 {
+    width: 70%;
+}
+
+.col-lg-7{
+    background-image: url(../images/IMG-20170304-WA0001.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid #f0f0f0;
+    height: 400px;
+    width: 620px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.col-lg-5{
+    height: 250px;
+    width: 500px;
+}
+
+.p1{
+    margin-top: 70px;
+    font-family: Cambria;
+    letter-spacing: 0.5px;
+}
+
+.p2{
+    margin-bottom: 70px;
+    font-family: Cambria;
+    letter-spacing: 0.5px;
+}
+
+.btn{
+     margin-left: 90px;
+}
+
+.btn-default {
+    color:silver;
+    background-color: #333;
+    border-color: #ccc;
+  
+}
+
+

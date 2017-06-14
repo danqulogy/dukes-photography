@@ -1,0 +1,70 @@
+/*GENERAL STYLES*/
+.active{
+    font-weight: 500;
+}
+/*LANDING PAGE*/
+.brand{
+    z-index: 99999;
+    position: absolute;
+    text-transform: uppercase;
+    color: #f5f5f5;
+    font-size: 28px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black;
+    margin-left:12px;
+}
+
+.launch-area{
+    z-index: 99999;
+    position: absolute;
+    top: 40vh;
+    left:40px;
+}
+.social-area{
+    z-index: 99999;
+    position: absolute;
+    top: 90vh;
+    left:46vw;
+    font-size: 24px;
+}
+.social-area >ul>li{
+    width: 40px;
+    height:40px;
+    background: white;
+    border-radius: 25px;
+}
+.social-area >ul>li:hover{
+    background: #c2c4be;
+    box-shadow: 5px 3px 2px #333;
+}
+.social-area >ul>li>a i{
+    padding-left: 10px;
+    margin-top: 10px;
+    color: #1a1a1a;
+}
+
+.btn-view-work{
+    width: 180px;
+    text-transform: uppercase;
+    height: 50px;
+    background: #3c3c3c;
+    color: #f5f5f5;
+    font-weight:600;
+    font-size:18px;
+    padding-top: 12px;
+
+}
+
+.main-content{
+    padding-left:0;
+    padding-right:0;
+    overflow: hidden;  
+}
+
+.slide_image{
+    width:100%;
+    margin-top: -200px;
+    opacity: 0.9;
+}
+
+

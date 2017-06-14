@@ -1,0 +1,12 @@
+body{
+    background: #f0f0f0;
+}
+
+.main-content{
+    padding-left:0;
+    padding-right:0;
+}
+
+.gallery{ 
+    margin-bottom:7px;
+}

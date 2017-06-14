@@ -1,0 +1,141 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.row-nav{
+    margin-bottom: 40px;
+}
+
+.my-navbar{
+    background:#f0f0f0;
+    border: 0px;
+}
+
+.dropdown-menu{
+    background-color: #f0f0f0;
+}
+
+.dropdown-submenu {
+    position:relative;
+}
+
+.nav>li>a{
+    margin-right: 50px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color:black;
+    background-color: #f0f0f0;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:transparent;
+    margin-top:5px;
+    margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:transparent;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color:black;
+    background-color: transparent;
+}
+
+.col-lg-12 {
+    width: 78%;
+}
+
+
+hr{
+    border-color: black;
+    width: 20px;
+}
+
+h1{
+    font-family: Julius Sans One;
+	font-size: 40px;
+	font-weight: normal;
+	margin-bottom: 40px;
+    text-align: center;
+}
+
+h2{
+     font-family: Julius Sans One;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.form-container{
+    margin-right: 50px;
+}
+
+.col-lg-4{
+    border: 1px solid silver;
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.form-group{
+    width: 600px;
+}
+
+.form-control{
+     width: 600px;
+}
+
+.row-content{
+    margin-bottom: 100px;
+}
+
+.required_star{
+ font-weight:bold;
+ color:#F00;
+}
+
+.btn{
+    border-radius:0px;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    opacity: .8;
+     
+}
+
